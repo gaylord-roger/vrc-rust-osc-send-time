@@ -1,0 +1,9 @@
+[package]
+name = "osc_send_time"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+async-osc = "0.2.0"
+chrono = "0.4.11"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
